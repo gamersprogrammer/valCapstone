@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-image:  url('./cont.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .instagram{
+            display: inline-block;
+            margin: 140px;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+            height: 40px;
+            gap: 30px;
+            border-radius: 8px;
+        }
+
+        .instagram{
+           display: flex;
+        }
+        
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .container{
+            margin-top: 30px;
+            color: whitesmoke;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        .instagram.whatsapp{
+            margin-bottom: 20px;
+            background: radial-gradient(#075E54, #25D366 80%);
+        }
+
+        .instagram.insta{
+            background: linear-gradient(#405DE6, #833AB4, #FF0077, #FFA400);
+        }
+
+        .instagram.github{
+            background: linear-gradient(#24292e, #0366d6);
+        }
+
+        .instagram.linkedin{
+            background: darkblue;
+        }
+
+        img{
+            width: 110px;
+            margin: 10px;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 1201px){
+            .flex-container{
+                flex-direction: column;
+                height: 100%;
+            }
+        }
+
+
+
+
+    </style>
+    <div class="flexcontainer">
+        <div class="container">
+            <h1>My Contact Address</h1>
+        </div>
+        <img src="./logo.png">
+        <div class="instagram insta">
+            <a href="https://instagram.com/valtx_7?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">Instagram</a>
+        </div>
+        <div class="instagram github">
+            <a href="">GitHub</a>
+        </div>
+        <div class="instagram linkedin">
+            <a href="">Linkedin</a>
+        </div>
+        <div class="instagram whatsapp">
+            <a href="https://wa.link/f5e6tl">Whatsapp</a>
+        </div>
+    </div>
+</body>
+</html>
